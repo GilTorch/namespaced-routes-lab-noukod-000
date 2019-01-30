@@ -8,7 +8,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
-    @preferences=Preference.find_by_id(1)
+    @preference=Preference.find_by_id(1)
     @artist = Artist.new
   end
 
